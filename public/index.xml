@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Airspace for Hugo</title>
+    <link>/</link>
+    <description>Recent content on Airspace for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Migrate from Jekyll</title>
+      <link>/blog/migrate-from-jekyll/</link>
+      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      
+      <guid>/blog/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>Linked post</title>
+      <link>/blog/linked-post/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>/blog/linked-post/</guid>
+      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
+menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
+    </item>
+    
+    <item>
+      <title>Go is for lovers</title>
+      <link>/blog/go-is-for-lovers/</link>
+      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      
+      <guid>/blog/go-is-for-lovers/</guid>
+      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</description>
+    </item>
+    
+    <item>
+      <title>Hugo is for lovers</title>
+      <link>/blog/hugo-is-for-lovers/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      
+      <guid>/blog/hugo-is-for-lovers/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/blog/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/blog/2015-07-23-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Creating a new theme</title>
+      <link>/blog/creating-a-new-theme/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>/blog/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/blog/apple/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/apple/</guid>
+      <description>Applecode{white-space: pre;}pre:not([class]) {background-color: white;}if (window.hljs) {hljs.configure({languages: []});hljs.initHighlightingOnLoad();if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) {window.setTimeout(function() { hljs.initHighlighting(); }, 0);}}h1 {font-size: 34px;}h1.title {font-size: 38px;}h2 {font-size: 30px;}h3 {font-size: 24px;}h4 {font-size: 18px;}h5 {font-size: 16px;}h6 {font-size: 12px;}.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/blog/arirang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/arirang/</guid>
+      <description>Arirang:A Beautiful Nightcode{white-space: pre;}pre:not([class]) {background-color: white;}if (window.hljs) {hljs.configure({languages: []});hljs.initHighlightingOnLoad();if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) {window.setTimeout(function() { hljs.initHighlighting(); }, 0);}}h1 {font-size: 34px;}h1.title {font-size: 38px;}h2 {font-size: 30px;}h3 {font-size: 24px;}h4 {font-size: 18px;}h5 {font-size: 16px;}h6 {font-size: 12px;}.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/blog/robinhood/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/robinhood/</guid>
+      <description>Robinhoodcode{white-space: pre;}pre:not([class]) {background-color: white;}if (window.hljs) {hljs.configure({languages: []});hljs.initHighlightingOnLoad();if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) {window.setTimeout(function() { hljs.initHighlighting(); }, 0);}}h1 {font-size: 34px;}h1.title {font-size: 38px;}h2 {font-size: 30px;}h3 {font-size: 24px;}h4 {font-size: 18px;}h5 {font-size: 16px;}h6 {font-size: 12px;}.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/blog/wealthealth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/wealthealth/</guid>
+      <description>Wealthcode{white-space: pre;}pre:not([class]) {background-color: white;}if (window.hljs) {hljs.configure({languages: []});hljs.initHighlightingOnLoad();if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) {window.setTimeout(function() { hljs.initHighlighting(); }, 0);}}h1 {font-size: 34px;}h1.title {font-size: 38px;}h2 {font-size: 30px;}h3 {font-size: 24px;}h4 {font-size: 18px;}h5 {font-size: 16px;}h6 {font-size: 12px;}.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/blog/press/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/press/</guid>
+      <description>The Press: Friend or Foecode{white-space: pre;}pre:not([class]) {background-color: white;}if (window.hljs) {hljs.configure({languages: []});hljs.initHighlightingOnLoad();if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) {window.setTimeout(function() { hljs.initHighlighting(); }, 0);}}h1 {font-size: 34px;}h1.title {font-size: 38px;}h2 {font-size: 30px;}h3 {font-size: 24px;}h4 {font-size: 18px;}h5 {font-size: 16px;}h6 {font-size: 12px;}.</description>
+    </item>
+    
+    <item>
+      <title>Apple</title>
+      <link>/blog/apple/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/apple/</guid>
+      <description>Taking A Bite Out of Apple Over the last couple of years, there have been many court cases between US law enforcement and private companies. These cases are often over issues of privacy where government agencies want access to someone&amp;rsquo;s messages or phones. In most of these cases, the communication company wins.
+Specifically, in 2016, Apple and the FBI went to court over the FBI&amp;rsquo;s demand that Apple creates a software giving the FBI access to phones.</description>
+    </item>
+    
+    <item>
+      <title>Arirang:A Beautiful Night</title>
+      <link>/blog/arirang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/arirang/</guid>
+      <description>Mercyhurst University&amp;rsquo;s Arirang Club hosted a Korean Culture appreciation dinner on Monday, February 13, 2017. To aid in this event Mercyhurst&amp;rsquo; Hospitality Department Marriot Caf� served dinner. This event was spear headed by Professor Michael Lamm, a co-founder of the Arirang Institute. The Arirang Institute is a NGO focused on creating dialogue between the parties involved in the behind the scenes operation of the DMZ and the unification process of North and South Korea.</description>
+    </item>
+    
+    <item>
+      <title>Arirang:A Beautiful Night</title>
+      <link>/blog/arirang.utf8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/arirang.utf8/</guid>
+      <description>Mercyhurst University&amp;rsquo;s Arirang Club hosted a Korean Culture appreciation dinner on Monday, February 13, 2017. To aid in this event Mercyhurst&amp;rsquo; Hospitality Department Marriot Café served dinner. This event was spear headed by Professor Michael Lamm, a co-founder of the Arirang Institute. The Arirang Institute is a NGO focused on creating dialogue between the parties involved in the behind the scenes operation of the DMZ and the unification process of North and South Korea.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robinhood</title>
+      <link>/blog/robinhood/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/robinhood/</guid>
+      <description>I recently re-watched Now You See Me both 1 and 2. In watching them I could not help but draw parallel references to the Robin Hood nature of the protagonists. So for those who do not what Now You See Me is about I will give you a summary.
+Now You See Me is a crime film about a guy&amp;rsquo;s 30 year retribution plan against the people who helped kill his father.</description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>/service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Press: Friend or Foe</title>
+      <link>/blog/press/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/press/</guid>
+      <description>&amp;ldquo;The press reflects the system of social control whereby the relations of individuals and institutions are adjusted.&amp;rdquo;
+According to Frederick Seibert there are four theories of the press, one in which our current system may apply. These four theories are the Authoriarian, also referred to as the Top Down, the Libertarian, The Social Responsibility and the Soviet Communist (Four Theories of the Press).
+The Top Down approach exists where leaders inform the public about issues they (the leaders) believe the public should know.</description>
+    </item>
+    
+    <item>
+      <title>Wealth</title>
+      <link>/blog/wealthealth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/wealthealth/</guid>
+      <description>Wealth vs Health There are numerous studies out there that suggest a The Health Gap: The Challenge of an Unequal Worlddeterminant of health is where one falls on the economic ladder. In Michael Marmot&amp;rsquo;s introduction to The Health Gap (book), Marmot starts by addressing the issue of being socio-economically disadvantaged in different stages and its impact on health. He argues that there is a social gradient of health, where, as each rung increase on the socio-economic ladder, health increase.</description>
+    </item>
+    
+    <item>
+      <title>Work</title>
+      <link>/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/work/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
